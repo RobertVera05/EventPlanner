@@ -40,6 +40,8 @@ public class EventPlanner
 		else
 		{
 			calendar.add(event);
+			System.out.println("Event " + event.getEventName() 
+			+ " has been added to calendar.");
 		}
 
 	}
